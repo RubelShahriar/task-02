@@ -13,7 +13,7 @@
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 500;
   width: 40ch;
   text-align: center;
   margin: 30px auto 30px auto;
@@ -86,11 +86,11 @@ button:hover {
 @media screen and (max-width: 478px) {
   h1 {
     font-size: 18px;
-    width: 21ch;
+    width: 26ch;
   }
   input,
   textarea {
-    width: 240px;
+    width: 290px;
     border-radius: 15px;
     margin-top: 15px;
   }
