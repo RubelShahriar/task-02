@@ -106,7 +106,7 @@ class EmojiCursor extends Component {
               display: "block",
               pointerEvents: "none",
               zIndex: "10000000",
-              fontSize: "16px",
+              fontSize: "23px",
               transform: `translate3d(${particle.position.x}px, ${
                 particle.position.y
               }px, 0) scale(${particle.lifeSpan / 120})`,
