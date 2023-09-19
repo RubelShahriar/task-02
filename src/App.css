@@ -2,7 +2,7 @@
 .App {
   font-family: "Montserrat", sans-serif;
   max-width: 1200px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 100px auto;
   padding: 0 10px;
   display: flex;
   flex-direction: column;
@@ -82,22 +82,16 @@ button:hover {
   textarea {
     width: 300px;
   }
-  .curBtn {
-    left: 30px;
-  }
 }
 @media screen and (max-width: 478px) {
   h1 {
     font-size: 18px;
-    width: 25ch;
+    width: 21ch;
   }
   input,
   textarea {
-    width: 280px;
+    width: 240px;
     border-radius: 15px;
     margin-top: 15px;
-  }
-  .curBtn {
-    left: 10px;
   }
 }
