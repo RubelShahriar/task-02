@@ -74,9 +74,6 @@ button:hover {
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    background-color: #00e5ff;
-  }
   h1 {
     font-size: 21px;
     width: 35ch;
@@ -90,9 +87,6 @@ button:hover {
   }
 }
 @media screen and (max-width: 478px) {
-  body {
-    background-color: #1de9b6;
-  }
   h1 {
     font-size: 18px;
     width: 25ch;
