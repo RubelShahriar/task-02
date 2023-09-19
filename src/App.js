@@ -77,7 +77,7 @@ function App() {
 
     // Send formData to a backend server (e.g., Express.js) and store it in MongoDB
     try {
-      await fetch("http://localhost:4000/insert-and-return", {
+      await fetch("https://task-02-server.onrender.com/insert-and-return", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

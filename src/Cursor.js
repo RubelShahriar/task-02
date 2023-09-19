@@ -5,7 +5,7 @@ class EmojiCursor extends Component {
     super(props);
 
     this.state = {
-      possibleEmoji: ["😀", "😂", "😆", "😊"],
+      possibleEmoji: ["😀", "😍", "😆", "🥰"],
       cursor: { x: 0, y: 0 },
       particles: [],
     };
